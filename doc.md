@@ -307,6 +307,10 @@ Cette route permet de récupérer la liste des éléments (posts).
 
 --- 
 
+## Post
+
+> Prefix: `/post`
+
 ### Endpoint [POST] `/` 🔐
 
 ## Description
