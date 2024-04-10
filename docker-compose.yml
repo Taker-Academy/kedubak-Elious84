@@ -1,8 +1,9 @@
 version: "3.8"
 
 services:
-  back:  # Définition du service back
+  back:
     build: ./Ke_Du_Back
+    command: node .  # Modifier la commande pour exécuter votre serveur
     environment:
       MONGO_URL: ${MONGO_URL}
       JWT_KEY: ${JWT_KEY}
